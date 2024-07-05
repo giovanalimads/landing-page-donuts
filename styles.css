@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: #F0B1B9;
+    width: 100%;
+    height: 10vh;
+}
+
+#navbar > .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 30px;
+}
+
+#navbar > .navbar > .logo > h2 {
+    color: white;
+    font-size: 30px;
+}
+
+#navbar > .navbar > .menu {
+    display: flex;
+    align-items: center;
+}
+
+#navbar > .navbar > .menu > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar > .navbar > .menu > ul > li {
+    margin: 0 20px;
+    position: relative;
+}
+
+#navbar > .navbar > .menu > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease-out;
+}
+
+.menu ul li a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+#navbar > .navbar > .shop {
+    color: #ffffff;
+    cursor: pointer;
+}
