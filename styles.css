@@ -24,7 +24,7 @@
 }
 
 #navbar > .navbar > .logo > h2 {
-    color: white;
+    color: #D53D6C;
     font-size: 30px;
     cursor: pointer;
 }
@@ -69,7 +69,7 @@
 }
 
 #navbar > .navbar > .shop {
-    color: #ffffff;
+    color: #D53D6C;
     cursor: pointer;
 }
 
@@ -81,13 +81,14 @@
 #home {
     background-color: #F0B1B9;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 #home > .container-home {
     display: flex;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 #home > .container-home > .box-left {
@@ -103,9 +104,64 @@
 #home > .container-home > .box-left > p {
     font-size: 14px;
     font-weight: 400;
+    color: #ffffff;
+}
+
+#home > .container-home > .box-left > button {
+    margin-top: 10px;
+    padding: 3px 20px;
+    background-color: #D53D6C;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#home > .container-home > .box-left > button:hover {
+    background-color: #ab0c3e;
+    color: white;
+}
+
+#home > .container-home > .box-left > button > a {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#home > .container-home > .box-right > img {
+    width: 180px;
+}
+
+/* CHOOSE US */
+#choose-us {
+    background-color: #ffeff1;
+    height: 30vh;
+    width: 100%;
+}
+
+.container-choose > .title {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
     color: #D53D6C;
 }
 
-#home > .container-home > .box-right > img {
-    width: 280px;
+.container-choose > .topics {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.container-choose > .topics > .topic-draw {
+    text-align: center;
+}
+
+.container-choose > .topics > .topic-draw > span {
+    color: #D53D6C;
+}
+
+.container-choose > .topics > .topic-draw > p {
+    font-weight: 500;
+    color: #D53D6C;
 }
