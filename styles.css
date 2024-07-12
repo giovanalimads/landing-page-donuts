@@ -169,94 +169,105 @@
 
 /* PRODUCTS */
 #products {
-    background-color: #F0B1B9;
-    height: 140vh;
-    width: 100%;
+    background: #F0B1B9;
 }
 
-#products > .container-products > .title {
-    color: #D53D6C;
-    padding: 20px;
-    text-align: center;
-}
-
-#products > .container-products > .container-comum > h2 {
-    color: #ab0c3e;
-    text-transform: uppercase;
-    font-family: 'Inter';
-    font-size: 18px;
-    padding-left: 246px;
-    padding-bottom: 10px;
+.card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .slider-wrapper {
     overflow: hidden;
-    max-width: 640px;
-    margin: 0 70px 30px;
+    max-width: 700px;
+    margin: 0 50px 20px;
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item {
-    background-color: #ffeff1;
-    width: 150px;
-    height: 200px;
-    border-radius: 10px;
+.card-list .card-item {
+    color: #fff;
+    width: 100px;
+    height: 250px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgb(94, 68, 87);
+    border-radius: 8px;
+    background: #FFEFF1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item > p {
-    font-size: 12px;
+.card-list .card-item img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.card-list .card-item p {
+    color: #000000;
     font-weight: 500;
+    font-size: 14px;
+    text-align: center; 
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item > .price-quantify {
+.card-list .card-item .price-quantify {
     display: flex;
-    gap: 45px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item > .price-quantify > .price {
-    font-size: 16px;
+.card-list .card-item .price-quantify .price {
+    color: #D53D6C;
+    font-size: 1.2rem;
     font-weight: 600;
-    color: #D53D6C;
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item > .price-quantify > .quantify > span {
-    font-size: 16px;
+.card-list .card-item .price-quantify .quantify {
+    display: flex;
+    align-items: center;
+}
+
+.card-list .card-item .price-quantify .quantify span {
+    color: #000000;
     cursor: pointer;
+    padding: 0 5px;
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item > .btn > button {
-    font-weight: 500;
-    margin-top: 3px;
-    padding: 3px 20px;
-    background-color: #ffeff1;
+.card-list .card-item .btn {
+    margin-top: 10px;
+}
+
+.card-list .card-item .btn button {
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: #D53D6C;
     border-radius: 20px;
-    border: 1px solid #D53D6C;
-    color: #D53D6C;
+    font-weight: 500;
     cursor: pointer;
-    transition-duration: 0.3s;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #D53D6C;
+    transition: 0.3s ease;
 }
 
-#products > .container-products > .container-comum > .container > .slider-wrapper > .card-list > .card-item > .btn > button:hover {
-    background-color: #D53D6C;
-    color: #ffffff;
+.card-list .card-item .btn button:hover {
+    background: #D53D6C;
+    color: #fff;
 }
 
 .slider-wrapper .swiper-pagination-bullet {
-    background: #fff;
+    background: #D53D6C;
 }
 
 .slider-wrapper .swiper-slide-button {
     color: #fff;
+    transition: 0.3s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #D53D6C;
 }
