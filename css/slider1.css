@@ -1,0 +1,99 @@
+.container .swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 50px 20px;
+}
+
+.card-list .card-item {
+    color: #fff;
+    width: 100px;
+    height: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #FFEFF1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-list .card-item img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.card-list .card-item p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.card-list .card-item .price-quantify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.card-list .card-item .price-quantify .price {
+    color: #D53D6C;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-list .card-item .price-quantify .quantify {
+    display: flex;
+    align-items: center;
+}
+
+.card-list .card-item .price-quantify .quantify span {
+    color: #000000;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.card-list .card-item .btn {
+    margin-top: 10px;
+}
+
+.card-list .card-item .btn button {
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: #D53D6C;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #D53D6C;
+    transition: 0.3s ease;
+}
+
+.card-list .card-item .btn button:hover {
+    background: #D53D6C;
+    color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background: #D53D6C;
+}
+
+.slider-wrapper .swiper-slide-button {
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #D53D6C;
+}
