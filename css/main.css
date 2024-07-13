@@ -170,6 +170,20 @@
 /* PRODUCTS */
 #products {
     background: #F0B1B9;
-    height: 100vh;
-    padding: 60px 60px 0;
+    height: 150vh;
+    padding: 0 60px 0;
+}
+
+#products > .title {
+    color: #D53D6C;
+    text-align: center;
+    padding: 20px;
+}
+
+#products > h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ab0c3e;
+    padding-left: 50px;
+    padding-top: 10px;
 }
