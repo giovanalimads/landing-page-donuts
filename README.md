@@ -12,7 +12,7 @@ This project was inspired by various landing pages and aims to be the store of a
 - Presents the "about us" section, where a little about the company will be written;
 - Feedbacks;
 - Location using Google Maps, containing telephone and cell number, and the address.
-- 
+
 ## Languages Used
 <p>
   <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
