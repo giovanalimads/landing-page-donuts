@@ -176,6 +176,7 @@
 
 #products > .title {
     color: #D53D6C;
+    font-size: 14px;
     text-align: center;
     padding: 20px;
 }
@@ -186,4 +187,77 @@
     color: #ab0c3e;
     padding-left: 50px;
     padding-top: 10px;
+}
+
+/* ABOUT US */
+#about {
+    background-color: #ffeff1;
+    height: 72vh;
+}
+
+#about > .container {
+    display: flex;
+    gap: 60px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#about > .container > .box-left > img {
+    width: 270px;
+}
+
+#about > .container > .box-right {
+    width: 450px;
+}
+
+#about > .container > .box-right > h2 {
+    color: #D53D6C;
+}
+
+#about > .container > .box-right > p {
+    text-align: justify;
+}
+
+/* FEEDBACK */
+#feedback {
+    background-color: #F0B1B9;
+    height: 85vh;
+}
+
+#feedback > .title {
+    color: #D53D6C;
+    text-align: center;
+    padding: 20px;
+}
+
+#feedback > .container > .feed-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#feedback > .container > .feed-list > .feed-card {
+    background: #ffeff1;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px #D53D6C;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#feedback > .container > .feed-list > .feed-card > h3 {
+    font-size: 16px;
+    color: #ab0c3e;
+}
+
+#feedback > .container > .feed-list > .feed-card > p {
+    font-weight: 500;
+}
+
+#feedback > .container > .feed-list > .feed-card > span {
+    color: #ab0c3e;
+    font-size: 18px;
 }
