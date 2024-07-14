@@ -261,3 +261,32 @@
     color: #ab0c3e;
     font-size: 18px;
 }
+
+/* LOCALIZATION */
+#localization {
+    background: #ffeff1;
+    height: 80vh;
+}
+
+#localization > .title {
+    color: #D53D6C;
+    padding: 20px;
+    text-align: center;
+}
+
+#localization > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#localization > .container > .info > .cel, .phone, .adress {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.material-symbols-outlined {
+    color: #D53D6C;
+}
