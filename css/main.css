@@ -290,3 +290,17 @@
 .material-symbols-outlined {
     color: #D53D6C;
 }
+
+#footer {
+    background: #F0B1B9;
+}
+
+#footer > .container {
+    text-align: center;
+}
+
+#footer > .container > span {
+    color: #D53D6C;
+    font-size: 14px;
+    font-weight: 500;
+}
