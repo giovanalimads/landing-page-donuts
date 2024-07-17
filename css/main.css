@@ -88,14 +88,14 @@ html {
 #home {
     background-color: #F0B1B9;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 #home > .container-home {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 #home > .container-home > .box-left {
